@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traffic Racer</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="game-area">
+        <div class="white-line-container">
+          <div id="line"></div>
+        </div>
+        <div id="player-car"></div>
+      </div>
+
+      <div id="game-menu">
+        <div id="message" style="display: none">Game Over! Click Restart</div>
+        <button id="play-btn">PLAY</button>
+      </div>
+    </div>
+    <div id="score-board">
+      <h1>Score: <span id="score">0</span></h1>
+    </div>
+
+    <script src="/js/index.js" defer></script>
+  </body>
+</html>
